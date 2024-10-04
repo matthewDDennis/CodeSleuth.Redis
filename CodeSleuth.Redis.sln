@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35323.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSleuth.Redis", "CodeSleuth.Redis\CodeSleuth.Redis.csproj", "{210A1AF4-5918-4B4C-A50F-494511EB9859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Performance Tests", "Performance Tests", "{D420AD49-1E75-4B5F-98C1-0F32D7B400F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Support", "Test Support", "{99BFD6B0-FB93-4D6D-BEC5-EF9C17BEBCBD}"
+	ProjectSection(SolutionItems) = preProject
+		Test Support\docker-compose.yml = Test Support\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{8285B9E2-962C-4361-9BBE-F37DBC9C02D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialTests", "Unit Tests\InitialTests\InitialTests.csproj", "{E3E6DBD2-772E-4FF5-AD23-F2F6EEFE21CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Performance Tests\Benchmarks\Benchmarks.csproj", "{86404A69-2FAE-4160-AA81-C8E19E02FCB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{210A1AF4-5918-4B4C-A50F-494511EB9859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210A1AF4-5918-4B4C-A50F-494511EB9859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210A1AF4-5918-4B4C-A50F-494511EB9859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210A1AF4-5918-4B4C-A50F-494511EB9859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E6DBD2-772E-4FF5-AD23-F2F6EEFE21CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E6DBD2-772E-4FF5-AD23-F2F6EEFE21CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E6DBD2-772E-4FF5-AD23-F2F6EEFE21CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E6DBD2-772E-4FF5-AD23-F2F6EEFE21CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86404A69-2FAE-4160-AA81-C8E19E02FCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86404A69-2FAE-4160-AA81-C8E19E02FCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86404A69-2FAE-4160-AA81-C8E19E02FCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86404A69-2FAE-4160-AA81-C8E19E02FCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3E6DBD2-772E-4FF5-AD23-F2F6EEFE21CE} = {8285B9E2-962C-4361-9BBE-F37DBC9C02D5}
+		{86404A69-2FAE-4160-AA81-C8E19E02FCB6} = {D420AD49-1E75-4B5F-98C1-0F32D7B400F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9C9372B-01AD-480B-ABC8-6586007E1075}
+	EndGlobalSection
+EndGlobal
